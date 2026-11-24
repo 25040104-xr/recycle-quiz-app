@@ -1,24 +1,41 @@
-## What is this app about?
+<h1 align="center">♻️ EcoLoop</h1>
 
-EcoLoop is a quiz app about sorting everyday waste into the right bin. Each question shows a common item, like a plastic bottle or an old phone, and you decide whether it goes into the Blue Recycling Bin, the General Waste Bin or the E-waste Bin. Once all five questions are answered, the app tells you how many you got right.
+<p align="center">
+  <b>A quick quiz that teaches you which bin your waste really goes in.</b><br/>
+  Five everyday items. Three bins. How many can you sort right?
+</p>
 
-I went with recycling as the theme because it's something most of us deal with every day, but it's easy to get wrong. Food-stained packaging and old electronics in particular often end up in the wrong bin.
+<p align="center">
+  <img src="https://img.shields.io/badge/React_Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />
+  <img src="https://img.shields.io/badge/Expo-000020?style=for-the-badge&logo=expo&logoColor=white" />
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
+</p>
 
-### Notable features of the app
+<p align="center">
+  <img width="260" alt="EcoLoop demo" src="https://github.com/user-attachments/assets/ffb52121-e87a-4d7a-a48a-0241651f5842" />
+</p>
 
-- 🖼️ **Picture for every question**: each item has its own image, so it's clear what you're sorting
-- 💡 **Hints**: every question comes with a short tip if you're not sure
-- 🗑️ **Bin picker**: choose your answer from a dropdown under each question
-- ✅ **Answer tracking**: a tick shows up on the card once you've answered it, so you can see which questions you've done
-- ⚠️ **No skipping**: the app asks you to finish all five questions before it shows your score
-- 🏆 **Score and feedback**: you get your score out of 5 and a different message depending on how you did
-- 🔄 **Try again**: start over from the results pop-up or with the reset button at the bottom
-- 🎨 **Styled with StyleSheet and Flexbox**: the layout uses `flexDirection`, `justifyContent`, `alignItems`, `flex` and `flexWrap`, with one green colour theme across the whole app
+<p align="center">
+  ▶️ <a href="https://drive.google.com/file/d/1D3k6krf25IYaXpjKdxe6FIaKUSNLMiRl/view?usp=sharing"><b>Watch the video walkthrough</b></a>
+</p>
 
------------
-### App Demo
+---
 
-<img width="586" height="1302" alt="ecoloop demo" src="https://github.com/user-attachments/assets/ffb52121-e87a-4d7a-a48a-0241651f5842" />
+## ✨ Features
 
+| | |
+|---|---|
+| 🖼️ **Picture for every item** | You see exactly what you're sorting |
+| 🗑️ **Three-bin choice** | Blue Recycling, General Waste or E-waste |
+| 💡 **Hints** | A short tip for every question |
+| ✅ **Progress ticks** | Answered cards are marked, so nothing gets missed |
+| 🏆 **Score and feedback** | Your score out of 5, with a message that matches it |
+| 🔄 **Try again** | Restart from the results pop-up or the reset button |
 
-Video walkthrough of the app:
+## 💭 Why recycling?
+
+Most of us sort waste every day, but it's easy to get wrong. Food-stained packaging and old electronics often end up in the wrong bin.
+
+## 🛠️ Built with
+
+React Native (Expo), `useState`, `Picker`, and `StyleSheet` with Flexbox, all in one green colour theme.
